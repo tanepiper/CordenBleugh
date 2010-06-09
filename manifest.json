@@ -1,0 +1,18 @@
+{
+   "background_page": "background.html",
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "jquery-latest.js" ],
+      "matches": [ "http://*/*" ],
+      "run_at": "document_idle"
+   } ],
+   "description": "CordenBleugh for Google Chome.",
+   "icons": {
+      "16": "CordenBleugh16.png",
+      "48": "CordenBleugh48.png"
+   },
+   "name": "CordenBleugh Extension",
+   "permissions": [ "tabs", "http://*/*" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.5"
+}
